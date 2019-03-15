@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt br">
+  <head>
+    <meta charset="utf-8" />
+    <title>INTALAÇÃO DO SPHINX &#8212; Documentação do Sphinx Documenta o Sphinx documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Bem vindo a Documentação do Sphinx!" href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="index.html" title="Bem vindo a Documentação do Sphinx!"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Documentação do Sphinx Documenta o Sphinx documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="figure align-center">
+<img alt="_images/sphinx.png" src="_images/sphinx.png" />
+</div>
+<div class="section" id="intalacao-do-sphinx">
+<h1>INTALAÇÃO DO SPHINX<a class="headerlink" href="#intalacao-do-sphinx" title="Permalink to this headline">¶</a></h1>
+<p>Sphinx é uma ferramenta que torna fácil criar documentação de maneira inteligente.</p>
+<p>Originalmento criado para Documentação Python, e com muitas facilidades para a documentação de projetos de software em diversas linguagens. Claro que esse site foi criado com fontes escritos em reStructuredText usando Sphinx para gerar a documentação!</p>
+<p>É gratuito em todos os sentidos.</p>
+<p>Site projeto Sphinx: <a class="reference external" href="http://www.sphinx-doc.org">http://www.sphinx-doc.org</a></p>
+<div class="section" id="instalando-o-sphinx">
+<h2>Instalando o Sphinx<a class="headerlink" href="#instalando-o-sphinx" title="Permalink to this headline">¶</a></h2>
+<p>Primeiro verifique se o Python está instalado na máquina, se estiver instalado, vai aparecer a versão. Utilize o comando no cmd.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">version</span>
+</pre></div>
+</div>
+<p>Se não estiver baixado, faça o download no site oficial do Python:</p>
+<p><a class="reference external" href="https://www.python.org">https://www.python.org</a></p>
+<p>Logo em seguida, verificar se o pip está instalado, se sim insira esse comando para baixar o Sphinx.:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">Sphinx</span>
+</pre></div>
+</div>
+<div class="section" id="criando-a-documentacao">
+<h3>Criando a documentação<a class="headerlink" href="#criando-a-documentacao" title="Permalink to this headline">¶</a></h3>
+<p>Para testar vamos criar uma documentação, no Sphinx usa-se um script, que cria o que vai ser necessário para a documentação, lembrar de criar uma pasta e no cmd botar essa ferramenta para ser executada nesta pasta. O script é:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sphinx</span><span class="o">-</span><span class="n">quickstart</span>
+</pre></div>
+</div>
+<p>Obs.: Ao ser execultado, vai aparecer para você botar no nome da documentação, autor, e demais informações.</p>
+<p>Logo em seguida, entre na pasta source, e ir no arquivo de texto index, se desejar pode mudar a mensagem principal, e depois salvar o arquivo, e mudar a codificação para UTF-8</p>
+<p>Depois crie um novo documento de texto, que é onde você vai começar a documentar, e no fim coloque um nome e salve como .rst, e modifique sua codificação para UTF-8.</p>
+<p>Antes de ver o resultado, volte ao documento index, e coloque o nome do documento que você acabou de criar na toctree:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">toctree</span><span class="p">::</span>
+    <span class="p">:</span><span class="n">maxdepth</span><span class="p">:</span> <span class="mi">2</span>
+    <span class="p">:</span><span class="n">caption</span><span class="p">:</span> <span class="n">Contents</span><span class="p">:</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">INTALAÇÃO DO SPHINX</a><ul>
+<li><a class="reference internal" href="#instalando-o-sphinx">Instalando o Sphinx</a><ul>
+<li><a class="reference internal" href="#criando-a-documentacao">Criando a documentação</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Bem vindo a Documentação do Sphinx!</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/download.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="index.html" title="Bem vindo a Documentação do Sphinx!"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Documentação do Sphinx Documenta o Sphinx documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, José Sérvulo.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.0.0b1.
+    </div>
+  </body>
+</html>
