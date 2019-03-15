@@ -11,4 +11,5 @@ Bem vindo a Documentação do Sphinx!
    :caption: Contents:
 
    download
+   doc
 
